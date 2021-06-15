@@ -39,7 +39,7 @@ public class DisplayManager {
 		long currentFrameTime = getCurrentTime();
 		delta = (currentFrameTime - lastFrameTime) / 1000f;
 		lastFrameTime = currentFrameTime;
-		Display.setTitle("First Dispaly!");
+		Display.setTitle("Game Engine (Ben Kile)");
 	}
 	
 	public static float getFrameTimeSeconds() {
