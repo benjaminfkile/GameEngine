@@ -17,7 +17,7 @@ public class Terrain {
 
 	private static final float SIZE = 1600;
 	private static final int VERTEX_COUNT = 256;
-	private static final float MAX_HEIGHT = 10;
+	private static final float MAX_HEIGHT = 200;
 	private static final float MAX_PIXEL_COLOUR = 256 * 256 * 256;
 
 	private float x;
